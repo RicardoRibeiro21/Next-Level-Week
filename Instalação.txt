@@ -1,0 +1,45 @@
+//Rota: Endereço completo da requisição
+//Recurso: Entidade que estamos acessando do sistema
+
+//GET: Buscar uma ou mais informações do back-end
+//POST: Criar uma nova informação no back-end
+//PUT: Atualizar uma informação do back-end
+//DELETE: Remover uma informação do back-end
+
+// Request Param: Parâmetros que vem na própria rota
+// Query Param: Parâmetros opcionais para filtros, paginação 
+// Request Body: Parâmetros para criação/atualização de informações
+
+
+Criando projeto node 
+
+instalar dependencias
+
+npm init -y - criar projeto e definir como padrão
+
+npm install express - rotas
+
+npm install @type/express -D - Instalar a definição de tipos (apenas na versão de desenvolvimento, pois o typescript é convertido em javascript)
+
+npm install ts-node -D - 
+
+npm install typescript - D
+
+npx tsc --init para confirguração inicial do server
+
+npm install ts-node-dev - Verifica as alterações do código e já atualiza a aplicação
+
+npm install knex - Query builder
+
+npm install sqlite3 
+
+npm install cors
+
+npm install @types/cors - D
+
+Criando projeto React
+
+npx create-react-app web --template=typescript
+
+criando as migrations
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
